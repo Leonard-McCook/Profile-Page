@@ -1,0 +1,146 @@
+
+.center{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 800px;
+    height: inherit;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.h1 {
+    flex:1;
+}
+
+.h3 {
+    color: white;
+}
+.dash{
+    display: flex;
+    justify-content: flex-start;
+    align-items: right;
+}
+p{
+margin-right: 30px;
+}
+button{
+    color: white;
+    border: black;
+    font-weight: 750;
+    flex:1;
+    max-width: 80px;
+    height: 30px;
+    background-color: rgb(21, 162, 184);
+}
+.container{
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+.colLeft{
+    margin-right: 30px;
+    flex: 2;
+}
+
+.colLeft.take2 {
+    height: 30px;
+
+}
+
+.colRight{
+    flex: 1;
+}
+
+.colRight.take1 {
+    flex: 1;
+}
+
+
+.gray{
+    outline: rgb(204, 204, 204) solid 3px;
+}
+.header, .education{
+    padding: 20px;
+}
+.header .blue{
+    height: 85px;
+    width:inherit;
+    background-color:rgb(21, 162, 184)
+}
+.header .JaneDoePic{
+    width: 100px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    position: relative; bottom: 55px;
+}
+
+.header h1{
+    margin: 0;
+}
+.header .iconLocation, .header .icon{
+    height: 15px;
+    margin-right: 15px;
+}
+.header h3{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+.header p{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+.boxTitle {
+    background-color: black;
+    color: white;
+    padding: 1px;
+}
+
+.education.gray {
+    flex: 1;
+    margin-top: 45px;
+}
+
+.connections.gray {
+    margin-top: 30px;
+}
+
+
+.userProfile {
+    height: 90px;
+    display: flex;
+    justify-self: self-end;
+}
+
+
+.smProfilePic {
+    margin-right: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.profileIcon {
+    display: flex;
+    justify-content: right;
+    position: relative; left: 50px;
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+}
+
+.requests.gray {
+    flex: 3;
+    
+}
